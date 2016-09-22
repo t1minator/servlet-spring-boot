@@ -5,8 +5,9 @@
 <head>
     <title><%= application.getInitParameter("ProductName") %>
     </title>
-    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="static/metro-bootstrap/css/metro-bootstrap.min.css" rel="stylesheet" type="text/css"/>    
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/metro-bootstrap/3.1.1.2/css/metro-bootstrap.min.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <%@include file="_header.jsp" %>
@@ -49,7 +50,6 @@
         </div>
     </div>
 </section>
-<script src="static/jquery/jquery-3.1.0.min.js"></script>
-<script src="static/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
